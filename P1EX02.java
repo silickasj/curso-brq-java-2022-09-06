@@ -1,9 +1,9 @@
-public class P1EX01 {
+public class P1EX02 {
 	public static void main(String[] args) {
 		double cavalos;
-		double m = 1000.0;
-		double h = 100.0;
-		double t = 10.0;
+		double m = 2000.0;
+		double h = 200.0;
+		double t = 20.0;
 		
 		//segunda alteracao
 		
