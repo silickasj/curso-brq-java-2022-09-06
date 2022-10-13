@@ -6,6 +6,7 @@ public class P1EX01 {
 		double t = 10.0;
 		
 		//segunda alteracao
+		//alteracao somente em main
 		
 		cavalos = m * h / t / 745.6999;
 		
