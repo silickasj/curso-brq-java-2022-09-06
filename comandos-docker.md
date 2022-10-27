@@ -170,9 +170,26 @@ Mapeando porta 3306, usuário **root** e senha **root**
     create database db_correntista;
     use db_correntista;
     create table cuentas ( cd_contas int primary key auto_increment, nombre varchar(40) );
+
+    insert into cuentas (nombre) VALUES ('JUAN');
+
+    select * from cuentas;
 ```
 
 # aula criando imagem
+
+# o que é Dockerfile?
+# é um arquivo na qual o Docker usa para saber como criar uma imagem (é um passo a passo)
+# Em geral, quando vamos criar a nossa imagem partimos de uma outra imagem padrão
+# para partir de uma imagem, devemos usar a palavra FROM
+# Exemplo: pegando a última imagem do servidor web nginx
+FROM nginx:latest
+
+docker run --name nginx -p 80:80 nginx:latest
+
+
+
+
 
 Para criar nossa própria imagem: 
 
